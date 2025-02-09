@@ -1,0 +1,23 @@
+{
+  "welcome": "Welcome!",
+  "description": "Discover the power of instant translation in multiple languages with a smooth and seamless experience.",
+  "form": {
+    "name": "Full Name",
+    "email": "Email Address",
+    "submit": "Send",
+    "errors": {
+      "required": "Please enter a valid name.",
+      "email": "Please enter a valid email address."
+    },
+    "success": "🎊 Your form has been successfully submitted! Thank you."
+  },
+  "date": {
+    "today": "Today is {{date}}."
+  },
+  "currency": {
+    "balance": "Your current balance: {{balance}}."
+  },
+  "errors": {
+    "api": "❌ An error occurred while fetching data. Please try again later."
+  }
+}
