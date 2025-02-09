@@ -83,7 +83,12 @@ export class HomeComponent {
   }
 
   getFormattedDate(): string {
-    return formatDate(this.today, 'fullDate', this.locale);
+    return new Intl.DateTimeFormat(this.locale, {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    }).format(this.today);
   }
 
   getFormattedBalance(): string {
