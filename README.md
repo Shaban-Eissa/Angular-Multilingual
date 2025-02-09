@@ -13,8 +13,10 @@ This is a modern Angular application demonstrating **multi-language support** wi
 - **Responsive & Accessible**: Uses **Tailwind CSS** for clean, modern styling.
 
 ## 📸 Preview
+![AR](https://github.com/user-attachments/assets/4fde7b24-2ad4-4855-bea2-723c1dd7d570)
 
-![Preview](./screenshot.png) <!-- Add a screenshot of your app -->
+![EN](https://github.com/user-attachments/assets/e3e82852-da35-4d4d-a018-8afee2583e66)
+
 
 ## 🚀 Installation & Setup
 
