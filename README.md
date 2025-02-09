@@ -1,27 +1,60 @@
-# LocalizationDemo
+# 🌍 Angular Multi-Language Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
+This is a modern Angular application demonstrating **multi-language support** with **dynamic translations** using `ngx-translate`. It includes **RTL support**, **localized date & currency formatting**, and a **custom-styled language selector**.
 
-## Development server
+## ✨ Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Dynamic Translations**: Uses `ngx-translate` for seamless localization.
+- **RTL Support**: Adjusts direction (`ltr`/`rtl`) based on language.
+- **Localized Date & Currency**: Formats according to the selected locale.
+- **Custom Dropdown Menu**: Styled language selector with a smooth UI.
+- **Persistent Language Preference**: Saves the user's choice in `localStorage`.
+- **Loading Spinner Overlay**: Provides feedback when switching languages.
+- **Responsive & Accessible**: Uses **Tailwind CSS** for clean, modern styling.
 
-## Code scaffolding
+## 📸 Preview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Preview](./screenshot.png) <!-- Add a screenshot of your app -->
 
-## Build
+## 🚀 Installation & Setup
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Shaban-Eissa/Angular-Multilingual.git
+   cd Angular-Multilingual
+   ```
 
-## Running unit tests
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. **Run the development server**:
+   ```bash
+   ng serve
+   ```
 
-## Running end-to-end tests
+4. **Open in the browser**:
+   navigate to ```http://localhost:4200```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## 🎨 Custom Styling
+1. Uses Google Fonts (Cairo for English & Arabic).
+2. Fully custom dropdown styling, overriding default browser styles.
+3. Smooth animations for loading spinner & transitions.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🛠 Tech Stack
+1. Angular 18 (Standalone Components)
+2. Tailwind CSS
+3. ngx-translate (i18n)
+4. Google Fonts (Cairo)
+5. TypeScript
+
+## 🏆 Future Enhancements
+1. Dark Mode Support
+2. More Language Support
+3. User Authentication
+4. Improved Animations
+
+## 🤝 Contributing
+Contributions are welcome! Feel free to fork this repo, create a branch, and submit a pull request. 🚀
